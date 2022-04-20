@@ -52,6 +52,8 @@ while (balls.length , 25){
     random(0 + size.height - size),
     random(-7,7),
     'rgb(' + random(0,255) + ',' + random(0,255) + ',' + random(0,255) 
+  +')',
+    size
   );
   balls.push(ball);
 }
